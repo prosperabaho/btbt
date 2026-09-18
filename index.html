@@ -276,7 +276,7 @@ function setConnected(isConnected, name) {
   dot.classList.toggle('connected', isConnected);
   if (isConnected) {
     statusLine1.textContent = 'Connected';
-    statusLine2.textContent = name || 'HC-08';
+    statusLine2.textContent = name || 'HC-05';
     connectBtn.textContent = 'Disconnect';
     connectBtn.classList.add('disconnect');
   } else {
